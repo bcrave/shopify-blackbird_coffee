@@ -73,6 +73,14 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "main-product-test": {
+        "type": "main-product-test",
+        "settings": {
+          "tax": "Tax not included in price",
+          "shipping": "Ships in 4 days",
+          "show_reviews": false
+        }
       }
     },
     "content_for_index": []

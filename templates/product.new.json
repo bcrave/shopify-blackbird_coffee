@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product-test",
+      "settings": {
+        "tax": "Tax Included",
+        "shipping": "Ships in 3 days",
+        "show_reviews": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
