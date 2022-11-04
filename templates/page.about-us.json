@@ -1,0 +1,147 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "b09b3f16-4f6a-446a-9ed5-30bb1ab1284f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16803164094768__b09b3f16-4f6a-446a-9ed5-30bb1ab1284f-1667490660c5125db1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Founder Emma"
+          }
+        },
+        "template--16803164094768__b09b3f16-4f6a-446a-9ed5-30bb1ab1284f-1667490660c5125db1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16803164094768__b09b3f16-4f6a-446a-9ed5-30bb1ab1284f-1667490660c5125db1-0",
+        "template--16803164094768__b09b3f16-4f6a-446a-9ed5-30bb1ab1284f-1667490660c5125db1-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "054da792-22ca-4dee-90ec-320bdfd0a364": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16803164094768__054da792-22ca-4dee-90ec-320bdfd0a364-16674906694cacf65b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Family Tradition"
+          }
+        },
+        "template--16803164094768__054da792-22ca-4dee-90ec-320bdfd0a364-16674906694cacf65b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16803164094768__054da792-22ca-4dee-90ec-320bdfd0a364-16674906694cacf65b-0",
+        "template--16803164094768__054da792-22ca-4dee-90ec-320bdfd0a364-16674906694cacf65b-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_2.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "50ae315d-92d3-4f98-baac-67f0d60a6b4b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16803164094768__50ae315d-92d3-4f98-baac-67f0d60a6b4b-16674906764f4ce0c6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "12 Months to Barista"
+          }
+        },
+        "template--16803164094768__50ae315d-92d3-4f98-baac-67f0d60a6b4b-16674906764f4ce0c6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16803164094768__50ae315d-92d3-4f98-baac-67f0d60a6b4b-16674906764f4ce0c6-0",
+        "template--16803164094768__50ae315d-92d3-4f98-baac-67f0d60a6b4b-16674906764f4ce0c6-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_3.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "570eb13d-8bb3-40fb-9610-69ae0cd3d875": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16803164094768__570eb13d-8bb3-40fb-9610-69ae0cd3d875-16674907921f54c263-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Excellence"
+          }
+        },
+        "template--16803164094768__570eb13d-8bb3-40fb-9610-69ae0cd3d875-16674907921f54c263-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--16803164094768__570eb13d-8bb3-40fb-9610-69ae0cd3d875-16674907921f54c263-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try It Yourself",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16803164094768__570eb13d-8bb3-40fb-9610-69ae0cd3d875-16674907921f54c263-0",
+        "template--16803164094768__570eb13d-8bb3-40fb-9610-69ae0cd3d875-16674907921f54c263-1",
+        "template--16803164094768__570eb13d-8bb3-40fb-9610-69ae0cd3d875-16674907921f54c263-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "793c4603-0a34-4706-81d4-36bfefbc9bbb": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Coffee Collection",
+        "collection": "coffee",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b09b3f16-4f6a-446a-9ed5-30bb1ab1284f",
+    "054da792-22ca-4dee-90ec-320bdfd0a364",
+    "50ae315d-92d3-4f98-baac-67f0d60a6b4b",
+    "570eb13d-8bb3-40fb-9610-69ae0cd3d875",
+    "793c4603-0a34-4706-81d4-36bfefbc9bbb"
+  ]
+}

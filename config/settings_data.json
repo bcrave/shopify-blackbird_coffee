@@ -1,0 +1,80 @@
+{
+  "current": {
+    "colors_accent_1": "#80411e",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Coffee Time ☕️",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Untitled_design_2.png",
+          "logo_width": 100,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "c73e3702-3405-490d-8dc9-b182d1ac7d32": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "14c08ae6-f12c-4fa4-92a0-163633e59e7d": {
+            "type": "text",
+            "settings": {
+              "heading": "Blackbird Coffee",
+              "subtext": "<p>📍1307 Killington Rd<br\/>Killington, Virginia<\/p><p>📞 (802) 422-4111<\/p><p>✉️ hello@blackbirdcoffee.com<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "c73e3702-3405-490d-8dc9-b182d1ac7d32",
+          "14c08ae6-f12c-4fa4-92a0-163633e59e7d"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "For Coffee Lovers 🤎",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}
