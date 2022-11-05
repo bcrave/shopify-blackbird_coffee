@@ -1,0 +1,56 @@
+<div class="testimonial-slider">
+  {% for block in section.blocks %}
+    <div class="testimonial-card">
+      <div class="testimonial-icon">
+        {% render 'icon-quotes' %}
+      </div>
+      <div class="testimonial-text">
+        <p>
+          {{ block.settings.testimonial_text }}
+        </p>
+      </div>
+      <div class="testimonial-image">
+        <img src="{{ block.settings.author_image | img_url: '300x' }}">
+      </div>
+      <div class="testimonial-name">{{ block.settings.author_name }}</div>
+    </div>
+  {% endfor %}
+</div>
+
+  {% schema %}
+  {
+    "name": "Testimonial Slider",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "testimonial_block",
+        "name": "Testimonial",
+        "settings": [
+          {
+            "id": "testimonial_text",
+            "label": "Testimonial",
+            "type": "richtext"
+          },
+          {
+            "id": "author_name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "id": "author_image",
+            "label": "Image",
+            "type": "image_picker"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Testimonial Slider"
+      }
+    ]
+  }
+  {% endschema %}
+</div>
+
+
