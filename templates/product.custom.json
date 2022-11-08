@@ -48,6 +48,25 @@
         "share": {
           "type": "share",
           "settings": {}
+        },
+        "a948a95e-4db9-49a5-9c7b-edd6aa0222db": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "content": "<p>{{ product.metafields.custom.shipping | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "truck"
+          }
+        },
+        "6b15b1d2-1ea3-40ba-bfbe-77d8ed516134": {
+          "type": "coffee_info",
+          "settings": {
+            "taste": "{{ product.metafields.custom.taste.value }}",
+            "strength": "{{ product.metafields.custom.strength.value }}",
+            "acidity": "{{ product.metafields.custom.acidity.value }}",
+            "coffee_type": "{{ product.metafields.custom.coffee_type.value }}",
+            "origin": "{{ product.metafields.custom.origin.value }}"
+          }
         }
       },
       "block_order": [
@@ -59,7 +78,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "a948a95e-4db9-49a5-9c7b-edd6aa0222db",
+        "6b15b1d2-1ea3-40ba-bfbe-77d8ed516134"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -100,7 +121,7 @@
         "template--16800452215088__efda90e1-49dc-4540-87a9-2f1c22a80299-16675753106240b13c-2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Our Promises ⭐️",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -124,11 +145,65 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "5307b8ca-0a9e-4983-ae6d-25180ea4ef41": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "19721e95-6cda-4b78-b86f-51100dbdb7af": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_text": "<p>Risus quis varius quam quisque. Consequat mauris nunc congue nisi vitae suscipit tellus mauris. Potenti nullam ac tortor vitae purus faucibus. <\/p>",
+            "author_name": "Greg",
+            "author_image": "shopify:\/\/shop_images\/user_4.jpg"
+          }
+        },
+        "bdc8a6e1-8965-4141-88b5-bd81db758c4e": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_text": "<p>Risus quis varius quam quisque. Consequat mauris nunc congue nisi vitae suscipit tellus mauris. Potenti nullam ac tortor vitae purus faucibus.<\/p>",
+            "author_name": "Sara",
+            "author_image": "shopify:\/\/shop_images\/user_5.jpg"
+          }
+        },
+        "bf033c78-6b24-4ff7-a2ba-26395c840d76": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_text": "<p>Risus quis varius quam quisque. Consequat mauris nunc congue nisi vitae suscipit tellus mauris. Potenti nullam ac tortor vitae purus faucibus.<\/p>",
+            "author_name": "Jason",
+            "author_image": "shopify:\/\/shop_images\/user_1.jpg"
+          }
+        },
+        "799ba63e-c77c-4c34-8a16-e0f878d1f8c4": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_text": "<p>Risus quis varius quam quisque. Consequat mauris nunc congue nisi vitae suscipit tellus mauris. Potenti nullam ac tortor vitae purus faucibus.<\/p>",
+            "author_name": "Chadwick",
+            "author_image": "shopify:\/\/shop_images\/user_3.jpg"
+          }
+        },
+        "590ad07f-95de-431e-aa4c-324a3084e464": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_text": "<p>Risus quis varius quam quisque. Consequat mauris nunc congue nisi vitae suscipit tellus mauris. Potenti nullam ac tortor vitae purus faucibus.<\/p>",
+            "author_name": "Jane",
+            "author_image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "19721e95-6cda-4b78-b86f-51100dbdb7af",
+        "bdc8a6e1-8965-4141-88b5-bd81db758c4e",
+        "bf033c78-6b24-4ff7-a2ba-26395c840d76",
+        "799ba63e-c77c-4c34-8a16-e0f878d1f8c4",
+        "590ad07f-95de-431e-aa4c-324a3084e464"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "efda90e1-49dc-4540-87a9-2f1c22a80299",
-    "1bfd6e2b-5381-4217-9568-db4d3b453860"
+    "1bfd6e2b-5381-4217-9568-db4d3b453860",
+    "5307b8ca-0a9e-4983-ae6d-25180ea4ef41"
   ]
 }

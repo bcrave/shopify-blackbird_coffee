@@ -1,0 +1,9 @@
+<div class="coffee-indicator">
+  {% for bean in (1..5) %}
+    {% if bean <= level %}
+      {% render 'icon-coffee-bean-filled' %}
+    {% else %}
+      {% render 'icon-coffee-bean-empty' %}
+    {% endif %}
+  {% endfor %}
+</div>

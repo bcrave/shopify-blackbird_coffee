@@ -1,20 +1,22 @@
-<div class="testimonial-slider">
-  {% for block in section.blocks %}
-    <div class="testimonial-card">
-      <div class="testimonial-icon">
-        {% render 'icon-quotes' %}
+<div class="section-wrapper">
+  <div class="testimonial-slider">
+    {% for block in section.blocks %}
+      <div class="testimonial-card">
+        <div class="testimonial-icon">
+          {% render 'icon-quotes' %}
+        </div>
+        <div class="testimonial-text">
+          <p>
+            {{ block.settings.testimonial_text }}
+          </p>
+        </div>
+        <div class="testimonial-image">
+          <img src="{{ block.settings.author_image | img_url: '300x' }}">
+        </div>
+        <div class="testimonial-name">{{ block.settings.author_name }}</div>
       </div>
-      <div class="testimonial-text">
-        <p>
-          {{ block.settings.testimonial_text }}
-        </p>
-      </div>
-      <div class="testimonial-image">
-        <img src="{{ block.settings.author_image | img_url: '300x' }}">
-      </div>
-      <div class="testimonial-name">{{ block.settings.author_name }}</div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>
 
   {% schema %}
